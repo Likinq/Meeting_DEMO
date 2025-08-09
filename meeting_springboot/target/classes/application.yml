@@ -1,0 +1,15 @@
+spring:
+  mail:
+    port: 465
+    default-encoding: utf-8
+    host: smtp.163.com
+    username: chenyin_08261029@163.com
+    password: QDaSDm34Ljdxa66R
+    properties:
+      mail:
+        debug: true
+        smtp:
+          auth: true
+          starttls.enable: true
+          socketFactoryClass: javax.net.ssl.SSLSocketFactory
+    protocol: smtps
